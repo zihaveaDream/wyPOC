@@ -1,6 +1,9 @@
 # 注
 本项目是wy876漏洞库的备份,这里我们继承wy876佬的开源精神,所以这里我们继续维护这个项目。
 
+#欢迎各位师傅加入交流群一起交流
+![image](https://github.com/user-attachments/assets/17acbc53-c008-4c6f-a9f9-a2a3270b9ac9)
+
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
