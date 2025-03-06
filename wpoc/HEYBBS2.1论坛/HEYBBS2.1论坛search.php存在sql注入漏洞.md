@@ -1,4 +1,4 @@
-# HEYBBS2.1论坛search.php存在sql注入漏洞.md
+# HEYBBS2.1论坛search.php存在sql注入漏洞
 
 HEYBBS2.1论坛在search.php接口下存在sql注入漏洞
 
