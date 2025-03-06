@@ -288,7 +288,6 @@
 - [cyberpanel未授权远程命令执行漏洞](./wpoc/cyberpanel/cyberpanel未授权远程命令执行漏洞.md)
 - [金和OA-C6系统接口ApproveRemindSetExec.aspx存在XXE漏洞(CNVD-2024-40568)](./wpoc/金和/金和OA-C6系统接口ApproveRemindSetExec.aspx存在XXE漏洞(CNVD-2024-40568).md)
 - [北京亚控科技img任意文件读取漏洞](./wpoc/北京亚控科技/北京亚控科技img任意文件读取漏洞.md)
-- [快递微信小程序系统httpRequest任意文件读取漏洞](./wpoc/快递/快递微信小程序系统httpRequest任意文件读取漏洞.md)
 - [Apache-Solr身份认证绕过导致任意文件读取漏洞复现(CVE-2024-45216)](./wpoc/Apache/Apache-Solr身份认证绕过导致任意文件读取漏洞复现(CVE-2024-45216).md)
 - [吉大正元身份认证网关downTools任意文件读取漏洞](./wpoc/吉大正元信息/吉大正元身份认证网关downTools任意文件读取漏洞.md)
 - [赛普EAP企业适配管理平台Download.aspx任意文件读取漏洞](./wpoc/赛普/赛普EAP企业适配管理平台Download.aspx任意文件读取漏洞.md)
