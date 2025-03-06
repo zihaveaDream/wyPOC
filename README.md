@@ -8,6 +8,9 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
+# 2025.03.6 新增漏洞
+
+
 # 2025.02.21 新增漏洞
 
 - [MasterSAM接口downloadService任意文件读取](./wpoc/MasterSAM/MasterSAM接口downloadService任意文件读取.md)
