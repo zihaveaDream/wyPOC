@@ -11,6 +11,7 @@
 # 2025.03.6 新增漏洞
 
 - [华夏通讯录存在前台upload任意文件上传](./wpoc/华夏通讯录/华夏通讯录存在前台upload任意文件上传.md)
+- [HEYBBS2.1论坛search.php存在sql注入漏洞](./wpoc/HEYBBS2.1论坛/HEYBBS2.1论坛search.php存在sql注入漏洞.md)
 
 # 2025.02.21 新增漏洞
 
