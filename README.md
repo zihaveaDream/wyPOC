@@ -14,6 +14,7 @@
 - [HEYBBS2.1论坛search.php存在sql注入漏洞](./wpoc/HEYBBS2.1论坛/HEYBBS2.1论坛search.php存在sql注入漏洞.md)
 - [快递微信小程序系统存在前台任意文件删除漏洞](./wpoc/快递微信小程序系统/快递微信小程序系统存在前台任意文件删除漏洞.md)
 - [虚拟币买卖USDT场外交易所upload.do存在任意文件上传](./wpoc/虚拟币买卖USDT场外交易所/虚拟币买卖USDT场外交易所upload.do存在任意文件上传.md)
+- [百易云资产管理系统admin.ticket.close.php存在SQL注入漏洞](./wpoc/百易云资产管理系统/百易云资产管理系统admin.ticket.close.php存在SQL注入漏洞.md)
 
 # 2025.02.21 新增漏洞
 
