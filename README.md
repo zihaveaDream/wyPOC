@@ -9,6 +9,11 @@
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络
 
+
+# 2025.03.17 新增漏洞
+- [PowerCreator接口CatalogCourse.aspx存在sql注入漏洞](./wpoc/PowerCreator/PowerCreator接口CatalogCourse.aspx存在sql注入漏洞.md)
+- [PowerCreator接口ShowResourceSkillComment.aspx存在sql注入漏洞](./wpoc/PowerCreator/PowerCreator接口ShowResourceSkillComment.aspx存在sql注入漏洞.md)
+
 # 2025.03.8 新增漏洞
 
 - [安美数字酒店宽带运营系统get_user_enrollment.php注入漏洞](./wpoc/安美数字酒店宽带运营系统/安美数字酒店宽带运营系统get_user_enrollment.php注入漏洞.md)
