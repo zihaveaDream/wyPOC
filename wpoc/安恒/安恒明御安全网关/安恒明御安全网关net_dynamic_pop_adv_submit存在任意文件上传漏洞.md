@@ -1,7 +1,7 @@
 # 安恒明御安全网关net_dynamic_pop_adv_submit存在任意文件上传漏洞
 
 # 一、漏洞简介
-安恒信息明御安全网关<font style="color:rgb(0, 0, 0);">（以下简称“NGFW”）秉持安全可视、简单有效的理念，以资产为视角，构建“事前+事中+事后”全流程防御的下一代安全防护体系，并融合传统防火墙、</font>入侵防御系统<font style="color:rgb(0, 0, 0);">、防病毒网关、上网行为管控、VPN网关、威胁情报等</font>安全模块<font style="color:rgb(0, 0, 0);">于一体的智慧化安全网关。安恒明御安全网关aaa_portal_auth_wchat_submit存在远程命令执行漏洞。攻击者可通过该漏洞获取服务器权限。</font>
+安恒信息明御安全网关<font style="color:rgb(0, 0, 0);">（以下简称“NGFW”）秉持安全可视、简单有效的理念，以资产为视角，构建“事前+事中+事后”全流程防御的下一代安全防护体系，并融合传统防火墙、</font>入侵防御系统<font style="color:rgb(0, 0, 0);">、防病毒网关、上网行为管控、VPN网关、威胁情报等</font>安全模块<font style="color:rgb(0, 0, 0);">于一体的智慧化安全网关。安恒明御安全网关net_dynamic_pop_adv_submit存在任意文件上传漏洞。攻击者可通过该漏洞获取服务器权限。</font>
 
 # <font style="color:rgb(0, 0, 0);">二、影响版本</font>
 + 安恒明御安全网关
