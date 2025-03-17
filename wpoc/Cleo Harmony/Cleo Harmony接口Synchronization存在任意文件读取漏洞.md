@@ -1,5 +1,5 @@
 ## Cleo Harmony接口Synchronization存在任意文件读取漏洞
-Cleo Harmony的/Synchronization接口存在任意文件读取漏洞，未经身份验证的攻击者可以通过漏洞读取服务器任意文件，从而获取大量敏感信息。
+Cleo Harmony的Synchronization接口存在任意文件读取漏洞，未经身份验证的攻击者可以通过漏洞读取服务器任意文件，从而获取大量敏感信息。
 ## fofa
 ```
 body="packages/partnerlogos/userportal_logo"
