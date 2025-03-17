@@ -11,6 +11,7 @@
 
 
 # 2025.03.17 新增漏洞
+- [PowerCreator接口OpenPublicCourse.aspx存在sql注入漏洞](./wpoc/PowerCreator/PowerCreator接口OpenPublicCourse.aspx存在sql注入漏洞.md)
 - [PowerCreator接口CatalogCourse.aspx存在sql注入漏洞](./wpoc/PowerCreator/PowerCreator接口CatalogCourse.aspx存在sql注入漏洞.md)
 - [PowerCreator接口ShowResourceSkillComment.aspx存在sql注入漏洞](./wpoc/PowerCreator/PowerCreator接口ShowResourceSkillComment.aspx存在sql注入漏洞.md)
 
