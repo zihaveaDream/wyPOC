@@ -15,13 +15,13 @@
 - [PowerCreator接口CatalogCourse.aspx存在sql注入漏洞](./wpoc/PowerCreator/PowerCreator接口CatalogCourse.aspx存在sql注入漏洞.md)
 - [PowerCreator接口ShowResourceSkillComment.aspx存在sql注入漏洞](./wpoc/PowerCreator/PowerCreator接口ShowResourceSkillComment.aspx存在sql注入漏洞.md)
 
-# 2025.03.8 新增漏洞
+# 2025.03.08 新增漏洞
 
 - [安美数字酒店宽带运营系统get_user_enrollment.php注入漏洞](./wpoc/安美数字酒店宽带运营系统/安美数字酒店宽带运营系统get_user_enrollment.php注入漏洞.md)
 - [安美数字酒店宽带运营系统get_ip.phpSQL注入漏洞](./wpoc/安美数字酒店宽带运营系统/安美数字酒店宽带运营系统get_ip.phpSQL注入漏洞.md)
 - [安美数字酒店宽带运营系统list_qry.phpSQL注入漏洞](./wpoc/安美数字酒店宽带运营系统/安美数字酒店宽带运营系统list_qry.php接口SQL注入漏洞.md)
 
-# 2025.03.6 新增漏洞
+# 2025.03.06 新增漏洞
 
 - [华夏通讯录存在前台upload任意文件上传](./wpoc/华夏通讯录/华夏通讯录存在前台upload任意文件上传.md)
 - [HEYBBS2.1论坛search.php存在sql注入漏洞](./wpoc/HEYBBS2.1论坛/HEYBBS2.1论坛search.php存在sql注入漏洞.md)
