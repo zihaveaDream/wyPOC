@@ -20,7 +20,6 @@ Accept: */*
 Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://221.199.170.130:88/StandardPlatform/Default.aspx
 Cookie: ASP.NET_SessionId=l2wuj2tri5e554020jeezoyw; language=simpleChineses
 Pragma: no-cache
 Cache-Control: no-cache
