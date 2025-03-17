@@ -1,6 +1,6 @@
 ## PowerCreator接口ShowResourceSkillComment.aspx存在sql注入漏洞
 
-PowerCreator接口 ShowResourceSkillComment.aspx存在任意文件sql注入漏洞。攻击者可利用该漏洞获取服务器上的信息。
+PowerCreator接口 ShowResourceSkillComment.aspx存在sql注入漏洞。攻击者可利用该漏洞获取服务器上的信息。
 
 ## fofa
 
