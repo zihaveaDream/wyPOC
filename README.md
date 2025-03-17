@@ -11,6 +11,7 @@
 
 
 # 2025.03.17 新增漏洞
+- [安恒明御安全网关net_dynamic_pop_adv_submit存在任意文件上传漏洞](./wpoc/安恒/安恒明御安全网关/安恒明御安全网关net_dynamic_pop_adv_submit存在任意文件上传漏洞.md)
 - [PowerCreator接口OpenPublicCourse.aspx存在sql注入漏洞](./wpoc/PowerCreator/PowerCreator接口OpenPublicCourse.aspx存在sql注入漏洞.md)
 - [PowerCreator接口CatalogCourse.aspx存在sql注入漏洞](./wpoc/PowerCreator/PowerCreator接口CatalogCourse.aspx存在sql注入漏洞.md)
 - [PowerCreator接口ShowResourceSkillComment.aspx存在sql注入漏洞](./wpoc/PowerCreator/PowerCreator接口ShowResourceSkillComment.aspx存在sql注入漏洞.md)
