@@ -3,8 +3,7 @@
 
 欢迎各位师傅加入交流群一起交流，公众号：深潜sec安全团队，（群满需要邀请加入，可以加本人微信）
 
-![image](https://github.com/user-attachments/assets/55d0f72a-7f3d-4fc5-9b41-2b91a59d7552)
-![image](https://github.com/user-attachments/assets/a2b045ed-2231-47ff-87f9-d325fe73157d)
+![image](https://github.com/user-attachments/assets/55d0f72a-7f3d-4fc5-9b41-2b91a59d7552) ![image](https://github.com/user-attachments/assets/a2b045ed-2231-47ff-87f9-d325fe73157d)
 
 # 漏洞收集
 收集整理漏洞EXP/POC,大部分漏洞来源网络
