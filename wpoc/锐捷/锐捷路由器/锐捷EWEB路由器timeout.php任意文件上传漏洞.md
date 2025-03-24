@@ -10,8 +10,6 @@
 + fofa`title=”锐捷网络-EWEB网管系统"`
 + 特征
 
-![1709883604157-a88eaed0-f449-414c-86ab-4951422896ee.png](./img/jMJPLGwCvErQjGMK/1709883604157-a88eaed0-f449-414c-86ab-4951422896ee-226270.png)
-
 # 四、漏洞复现
 获取cookie
 ```plain
